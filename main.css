@@ -82,11 +82,6 @@ header {
 
   .form__container {
     width: 550px;
-    background-color: #1D263A;
-    color: #fff;
-    padding-top: 115px;
-    padding-bottom: 115px;
-    text-align: center;
   }
 
   .form h1 {
@@ -99,7 +94,23 @@ header {
   }
 
   .form {
+    background-color: #1D263A;
+    color: #fff;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .form__group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .form form {
+    display: grid;
+    grid-gap: 20px;
+    margin-top: 60px;
   }
