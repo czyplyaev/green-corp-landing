@@ -70,6 +70,7 @@ header {
     background: url('img/back.png') no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
   }
 
   .about h1 {
@@ -339,10 +340,10 @@ header {
     content: '';
     display: inline-block;
     width: 10px;
-   height: 10px;
-   border-radius: 50%;
-   background-color: #ec6b29;
-   margin-right: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ec6b29;
+    margin-right: 10px;
   }
   
   .promo__text p {
@@ -366,6 +367,13 @@ header {
   .promo__text button i {
     font-size: 15px;
     margin-left: 5px;
+  }
+
+  .orb-canvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
   }
   
   /* Планшеты */
